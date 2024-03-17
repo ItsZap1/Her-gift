@@ -98,35 +98,37 @@ body {
     background-color: #f7f7f7;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    max-width: 400px;
+    padding: 5vw; /* Padding based on viewport width */
+    max-width: 90vw; /* Maximum width based on viewport width */
+    max-height: 80vh; /* Maximum height based on viewport height */
+    overflow-y: auto; /* Enable vertical scrollbar if content exceeds maximum height */
     text-align: center;
     font-family: 'Georgia', serif;
 }
 
 .popup h2 {
-    font-size: 24px;
+    font-size: 5vw; /* Font size based on viewport width */
     color: #c0392b; /* Red color */
-    margin-bottom: 20px;
+    margin-bottom: 3vw; /* Margin based on viewport width */
 }
 
 .paragraph-container {
-    max-height: 200px; /* Maximum height for paragraph container */
-    overflow-y: auto; /* Enable vertical scrollbar if content exceeds maximum height */
+    margin-bottom: 3vw; /* Margin based on viewport width */
 }
 
 .popup p {
-    font-size: 18px;
+    font-size: 4vw; /* Font size based on viewport width */
     color: #333;
     line-height: 1.6;
-    margin-bottom: 15px;
+    margin-bottom: 2vw; /* Margin based on viewport width */
 }
 
 .close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 1vw; /* Top margin based on viewport width */
+    right: 1vw; /* Right margin based on viewport width */
     cursor: pointer;
-    font-size: 20px;
+    font-size: 5vw; /* Font size based on viewport width */
     color: #c0392b; /* Red color */
+}392b; /* Red color */
 }
